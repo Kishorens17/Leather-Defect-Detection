@@ -1,1 +1,7 @@
 # Leather-Defect-Detection
+
+Abstract:
+Automated leather defect detection is essential for maintaining product quality in manufacturing. Our research proposes a new hybrid deep learning framework that incorporates SMOTE (Synthetic Minority Over-sampling Technique) in order to pre-treat datasets, and Normalizer-Free Networks (NFNet) for learning strong features without normalizing data and Fourier Neural Operators (FNO) for capturing defect patterns and using frequency information domains. The proposed system trains to all sorts of classes (defective and non-defective) then it separates images into 5 main categories: Non-defective, Folding marks, Grain off and Growth marks, Loose grains. According to a test using standard industry data sets, our method obtains an accuracy of 90% - 92% which is much better than conventional models such as EfficientNet and ResNet Evaluated using industry-standard datasets, this method achieves 90% - 92% accuracy, better than traditional models like ResNet (Residual  Neural Network) and EfficientNet models. The solution provides a scalable and on-the-spot quality inspection system that reduces manufacturing costs for tanneries compared with traditional methods. It can also be used for other material inspection domains.
+
+Keywords: Leather defect detection, Deep learning, Normalizer-Free Network, Fourier Neural Operator, Image classification.
+Dataset: https://www.kaggle.com/datasets/praveen2084/leather-defect-classification
